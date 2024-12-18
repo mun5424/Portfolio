@@ -3,7 +3,7 @@ import './../style/Navbar.css'
 
 const Navbar = () => {
     return (
-        <header>
+        
             <nav className="navbar">
             <div className="navbar-logo">
                 <a href="#home">MyPortfolio</a>
@@ -23,8 +23,6 @@ const Navbar = () => {
                 </li>
             </ul>
             </nav>
-
-        </header>
     );
   };  
 

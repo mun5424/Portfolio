@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -9,14 +7,14 @@ import './App.css'
 
 function App() {
   return (
-    <main>
+    <div className="container">
       <Navbar />
       <About />
       <Projects />
       <Skills />
       <Contact />
-    </main>
+    </div>
   )
 }
 
-export default App
+export default App;
