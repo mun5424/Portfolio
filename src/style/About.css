@@ -1,0 +1,49 @@
+.about-container {
+    display: flex;
+    padding: 100px 0 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat(3, 200px);
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray; 
+    height: 400px;
+    width: 50%;
+}
+
+.about-hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 400px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.button {
+    margin: 5px; 
+}
+
+.about-links a {
+    margin: 5px;
+}
+
+.about-links svg {
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-details {
+        width: 100vh;
+    }
+
+    .about-hero {
+        width: 100vh;
+    }
+  }
