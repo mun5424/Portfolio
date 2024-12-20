@@ -1,0 +1,15 @@
+.experience-title {
+    text-align: left;
+}
+
+.experience-container {
+    display: flex;
+    float: left;
+    
+    flex-direction: column;
+    color: white; 
+}
+
+.expereince-card {
+    text-align: left; 
+}

@@ -1,11 +1,13 @@
 .title {
     text-align: left; 
 }
+
 .about-container {
     display: flex;
     padding: 100px 0 0 0;
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-template-rows: repeat(3, 200px);
+    margin: 10px;
 }
 
 .about-details {

@@ -1,7 +1,7 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import './App.css'
 
@@ -10,7 +10,7 @@ function App() {
     <div className="container">
       <Navbar />
       <About />
-      <Projects />
+      <Experience />
       <Skills />
       <Contact />
     </div>
