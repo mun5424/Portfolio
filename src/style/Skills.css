@@ -14,8 +14,8 @@
 }
 
 .sqlserver {
-    background: #edeb7a;
-    box-shadow: #edeb7a 0 10px 20px -10px;
+    background: rgba(227, 227, 20, 0.892);
+    box-shadow: yellow 0 10px 20px -10px;
 }
 
 .aspnet {
@@ -78,10 +78,10 @@
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Segoe UI";
-    font-size: 16px;
+    font-size: 12px;
     text-shadow:1px 1px 1px black;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 18px;
     opacity: 1;
     outline: 0 solid transparent;
     padding: 8px 18px;
