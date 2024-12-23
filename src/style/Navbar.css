@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -41,6 +41,19 @@ body {
   .navbar-links a:hover {
     color: #ff9800;
   }
+
+.about-links {
+  display: flex;
+}
+
+.about-links a {
+  margin: 5px;
+}
+
+.about-links svg {
+  margin: 5px;
+}
+
   
   /* Responsive Design */
   @media (max-width: 768px) {

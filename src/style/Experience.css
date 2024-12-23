@@ -1,7 +1,4 @@
-@import "https://unpkg.com/open-props" 
-layer(design.system);
-@import "https://unpkg.com/open-props/normalize.min.css" 
-layer(demo.support);
+@import "./Skills.css";
 
 .experience-title {
     text-align: left;
@@ -14,13 +11,40 @@ layer(demo.support);
     color: white; 
 }
 
+.company-logo {
+    width: 150px;
+    height: auto; 
+}
+
 .experience-card {
     margin: 1em;
-    padding: 2rem;
-    display: flex; 
+    padding: 1rem 2rem 1rem 2rem;
     flex-direction: column;
     text-align: left; 
 }
+
+.experience-title {
+    width: 100%; 
+    display: inline-block; 
+    flex-direction: row;
+}
+
+.experience-image {
+    margin: 15px 5px 0px 0px; 
+    float: left;
+}
+
+.experience-job-name {
+    margin-left: 10px;
+    display: block; 
+    float: left;
+}
+
+.start-end-dates { 
+    float: right; 
+    color: rgb(210, 210, 210);
+}
+
 
 .border-gradient {
     border: 1px solid rgb(229, 186, 229);
@@ -37,6 +61,3 @@ layer(demo.support);
 }
 
 
-.skill-tag {
-
-}

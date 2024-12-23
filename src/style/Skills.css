@@ -1,0 +1,95 @@
+.csharpblue {
+    background: #1d1dea;
+    box-shadow: #1d1dea 0 10px 20px -10px;
+}
+
+.azuredevops {
+    background: #8ab6e6;
+    box-shadow: #8ab6e6 0 10px 20px -10px;
+}
+
+.visualstudio {
+    background: #0080ff;
+    box-shadow: #0080ff 0 10px 20px -10px;
+}
+
+.sqlserver {
+    background: #edeb7a;
+    box-shadow: #edeb7a 0 10px 20px -10px;
+}
+
+.aspnet {
+    background: #0C2B62;
+    box-shadow: #0C2B62 0 10px 20px -10px;
+}
+
+.java {
+    background: #BD2d2e;
+    box-shadow: #BD2d2e 0 10px 20px -10px;
+}
+
+.python {
+    background: #f75454;
+    box-shadow: #f75454 0 10px 20px -10px;
+}
+
+.react {
+    background: #00D1f7;
+    box-shadow: #00D1f7 0 10px 20px -10px;
+}
+
+.graphql {
+    background: #ee0097;
+    box-shadow: #ee0097 0 10px 20px -10px;
+}
+
+.dynamodb {
+    background: #2973B9;
+    box-shadow: #134570  0 10px 20px -10px;
+}
+
+.aws {
+    background: #FF9900;
+    box-shadow: #000000  0 10px 20px -10px;
+}
+
+.angularjs {
+    background: #D6002F;
+    box-shadow: #D6002F  0 10px 20px -10px;
+}
+
+.vbnet {
+    background: #663493;
+    box-shadow: #663493  0 10px 20px -10px;
+}
+
+.typescript {
+    background: #0076C6;
+    box-shadow: #0076C6  0 10px 20px -10px;
+}
+
+.skill-tags {
+    margin: 5px;
+}
+
+.skill-tag {
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    text-shadow:1px 1px 1px black;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word; 
+    border: 0;
+    margin: 0px 2px 0px 2px;
+}
