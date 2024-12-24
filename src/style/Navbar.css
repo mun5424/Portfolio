@@ -56,13 +56,18 @@ body {
 
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar-links {
       flex-direction: column;
       display: none;
     }
   
     .navbar-links.active {
-      display: flex;
+      display: none;
+    }
+
+    .about-links {
+      flex-direction: column;
+      display: none;
     }
   }

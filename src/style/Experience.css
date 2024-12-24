@@ -30,9 +30,14 @@
 }
 
 .experience-image {
-    margin: 15px 5px 0px 0px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
     float: left;
 }
+
 
 .experience-job-name {
     margin-left: 10px;
