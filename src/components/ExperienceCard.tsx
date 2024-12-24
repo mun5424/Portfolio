@@ -38,7 +38,7 @@ function getTechStacks( techStack: string[])  {
 
 function ExperienceCard({ jobName, companyName, techStack, startDate, endDate, logo }: ExperienceCardProps) {
     return <div className="experience-card border-gradient border-gradient-purple" > 
-        <div className="experience-title">
+        <div className="experience-info">
             <div className="experience-image">
                 <img className="company-logo" src={logo} />
             </div>

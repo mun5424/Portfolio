@@ -1,6 +1,6 @@
 @import "./Skills.css";
 
-.experience-title {
+.experience-info {
     text-align: left;
 }
 
@@ -23,14 +23,17 @@
     text-align: left; 
 }
 
-.experience-title {
+.experience-info {
     width: 100%; 
     display: inline-block; 
     flex-direction: row;
 }
 
-.experience-image {
+.experience-h1 {
+    text-align: left;
+}
 
+.experience-image {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,3 +69,35 @@
 }
 
 
+
+@media screen and (max-width: 767px) {
+    h3 {
+        font-size: 4vw;
+    }
+
+    h4 {
+        font-size: 3vw;
+    }
+    
+    .experience-h1 {
+        text-align: center;
+    }
+
+    .experience-card {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .experience-job-name {
+        padding: auto;
+        text-align: center;
+        max-width: 50%;
+    }
+    .experience-image {
+        max-width: 50%;
+    }
+
+    .experience-info {
+        width: 100%;
+    }
+}
