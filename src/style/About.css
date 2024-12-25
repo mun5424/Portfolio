@@ -1,6 +1,4 @@
-.title {
-    text-align: left; 
-}
+@import "./Common.css";
 
 .about-container {
     display: flex;

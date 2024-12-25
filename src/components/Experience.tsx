@@ -7,7 +7,7 @@ import cofebelogo from '../assets/cofebe.png'
 import bristolfarmslogo from '../assets/bristolfarms.png'
 
 const Experience = () => {
-    return <div className="experience-container">
+    return <div id="experience-section" className="experience-container">
         <h1 className="experience-h1">Experience</h1> 
         <ExperienceCard
             jobName="Software Engineer II"

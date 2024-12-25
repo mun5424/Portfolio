@@ -2,7 +2,7 @@ import './../style/About.css'
 import portrait from '../assets/portrait.jpg'
 
 const About = () => {
-    return <div className="about-container">
+    return <div id="about-section" className="about-container">
       <div className="about-details">
         <div className="about-title"> 
           <h1 className="title main-title">
