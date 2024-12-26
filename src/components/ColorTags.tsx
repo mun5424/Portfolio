@@ -14,6 +14,14 @@ const colorMap = new Map<string, string>([
     ["Visual Basic .NET", "vbnet"],  
     ["Typescript", "typescript"],  
     ["AngularJS", "angularjs"],  
+    ["Angular", "angular"],  
+    ["AWS Lambda", "awslambda"],  
+    ["Node", "node"],  
+    ["Javascript", "javascript"],  
+    ["Chrome Extensions", "chromeextensions"],  
+    ["PostgreSQL", "postgresql"],  
+    ["MySQL", "mysql"],  
+    ["Bootstrap", "bootstrap"],  
 ])
 
 export default function getTechStackColors( techStack: string[])  {

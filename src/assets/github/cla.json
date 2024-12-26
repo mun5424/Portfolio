@@ -1,7 +1,7 @@
 {
   "id": 194341141,
   "node_id": "MDEwOlJlcG9zaXRvcnkxOTQzNDExNDE=",
-  "name": "easycla",
+  "name": "EasyCLA",
   "full_name": "communitybridge/easycla",
   "private": false,
   "owner": {
@@ -26,7 +26,7 @@
     "site_admin": false
   },
   "html_url": "https://github.com/communitybridge/easycla",
-  "description": "The Contributor License Agreement (CLA) service of the Linux Foundation lets project contributors read, sign, and submit contributor license agreements easily.",
+  "description": "The Contributor License Agreement (CLA) service of the Linux Foundation. Before contributing to an open-source project, lets project contributors read, sign, and submit contributor license agreements.",
   "fork": false,
   "url": "https://api.github.com/repos/communitybridge/easycla",
   "forks_url": "https://api.github.com/repos/communitybridge/easycla/forks",

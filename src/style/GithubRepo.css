@@ -6,11 +6,19 @@
 }
 
 .ghrepo-container {
-    border: 1px solid #3d444d;
-    border-radius: 20px;
-    padding: 16px;
-    max-width: 400px;
-    margin: 16px auto;
+    width: 100%; 
+    text-align: center;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.ghrepo-card {
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-height: 150px;
+    padding: 1rem;
+    margin: 0.5rem;
     background-color: #0d1117;
 }
 
@@ -38,6 +46,7 @@
 @media screen and (max-width: 767px) {
 
     .ghrepo-container {
-        margin: 1em;
+        grid-template-columns: 1fr;
     }
+    
 }

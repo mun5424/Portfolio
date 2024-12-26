@@ -30,6 +30,10 @@
     width: 40%;
 }
 
+.mugshot-container {
+  text-align: center;
+}
+
 .mugshot-container img {
     width: 300px;
     border-radius: 30px;

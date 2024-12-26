@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import './../style/GithubRepo.css';
 import { Repository, RepoData } from "./Projects";
-import cla_json from "./../github/cla.json";
-import overwatchfantasy_json from "./../github/overwatchfantasy.json";
-import iris_json from "./../github/iris.json";
+import cla_json from "./../assets/github/cla.json";
+import overwatchfantasy_json from "./../assets/github/overwatchfantasy.json";
+import iris_json from "./../assets/github/iris.json";
+import nutritiously_json from "./../assets/github/nutritiously.json";
 import getTechStackColors from "./ColorTags";
 
 const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) => {
@@ -34,10 +35,11 @@ const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) 
   useEffect(() => {
     const fetchRepos = async () => {
       try {
+        const nutritiously = nutritiously_json as RepoData;
         const cla = cla_json as RepoData;
         const overwatchfantasy = overwatchfantasy_json as RepoData;
         const iris = iris_json as RepoData;
-        setRepoData([cla, overwatchfantasy, iris]);
+        setRepoData([nutritiously, overwatchfantasy, iris, cla]);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An unknown error occurred");
       }
@@ -55,9 +57,9 @@ const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) 
   }
 
   return (
-    <div>
+    <div className="ghrepo-container">
       {repoData.map((repo) => (
-        <div key={repo.id} className="ghrepo-container">
+        <div key={repo.id} className="ghrepo-card">
           <h3 className="repo">
             <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
               {repo.name}

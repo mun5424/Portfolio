@@ -68,6 +68,46 @@
     box-shadow: #0076C6  0 10px 20px -10px;
 }
 
+.angular {
+    background: #dd46ef;
+    box-shadow: #dd46ef  0 10px 20px -10px;
+}
+
+.awslambda {
+    background: #d16312;
+    box-shadow: #d16312  0 10px 20px -10px;
+}
+
+.node {
+    background: #85c03b;
+    box-shadow: #85c03b  0 10px 20px -10px;
+}
+
+.javascript {
+    background: #e8d44d;
+    box-shadow: #e8d44d  0 10px 20px -10px;
+}
+
+.chromeextensions{
+    background: #218e41;
+    box-shadow: #218e41  0 10px 20px -10px;
+}
+
+.postgresql {
+    background: #30648b;
+    box-shadow: #30648b  0 10px 20px -10px;
+}
+
+.mysql {
+    background: #ef9218;
+    box-shadow: #ef9218  0 10px 20px -10px;
+}
+
+.bootstrap {
+    background: #7a10f2;
+    box-shadow: #7a10f2  0 10px 20px -10px;
+}
+
 .skill-tags {
     margin: 5px;
 }
@@ -104,6 +144,7 @@
     }
 
     .skill-tag {
+        font-size: 4vw; 
         border-radius: 200px;
         padding: 0px 8px;
         line-height: 30px; 

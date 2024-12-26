@@ -1,7 +1,7 @@
 {
   "id": 122662502,
   "node_id": "MDEwOlJlcG9zaXRvcnkxMjI2NjI1MDI=",
-  "name": "iris",
+  "name": "IRIS",
   "full_name": "Team-BAB/iris",
   "private": false,
   "owner": {
@@ -26,7 +26,7 @@
     "site_admin": false
   },
   "html_url": "https://github.com/Team-BAB/iris",
-  "description": "text-to-speech translator",
+  "description": "text-to-speech extension that automatically reads hovered or focused elements. ",
   "fork": false,
   "url": "https://api.github.com/repos/Team-BAB/iris",
   "forks_url": "https://api.github.com/repos/Team-BAB/iris/forks",
@@ -127,5 +127,5 @@
   },
   "network_count": 0,
   "subscribers_count": 3,
-  "techStacks": ["Javascript", "Browser Extensions"]
+  "techStacks": ["Javascript", "Chrome Extensions"]
 }
