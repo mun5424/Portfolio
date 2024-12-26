@@ -2,3 +2,11 @@
     text-align: left; 
     color: white; 
 }
+
+
+@media screen and (max-width: 767px) {
+    .title { 
+        text-align: center; 
+        color: white; 
+    }
+}

@@ -4,12 +4,13 @@ import { Repository, RepoData } from "./Projects";
 import cla_json from "./../github/cla.json";
 import overwatchfantasy_json from "./../github/overwatchfantasy.json";
 import iris_json from "./../github/iris.json";
+import getTechStackColors from "./ColorTags";
 
 const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) => {
   const [repoData, setRepoData] = useState<RepoData[]>([]);
   const [error, setError] = useState<string | null>(null);
 
-//only use to fetch API, then save the results to /github/json
+// only use to fetch API, then save the results to /github/json
 // use the fetch call once then save the results into json, dont need to call the gh repo every time
   const fetchReposAPI = async () => {
     try {
@@ -63,9 +64,8 @@ const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) 
             </a>
           </h3>
           <p className="description">{repo.description || "No description available."}</p>
-          <div className="meta">
-            <span>⭐ {repo.stargazers_count} Stars</span>
-            <span>🍴 {repo.forks_count} Forks</span>
+          <div className="skill-tags">
+        {getTechStackColors(repo.techStacks)}
           </div>
         </div>
       ))}

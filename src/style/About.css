@@ -112,11 +112,12 @@
         font-size: 8vw;
     }
 
-    h3 {
-        font-size: 3vw;
+    .sub-title {
+        font-size: 2.8vw;
     }
 
     p {
+        padding: 5px; 
         word-wrap: break-word;
         font-size: 3vw;
     }
@@ -147,9 +148,13 @@
         margin: 5px 0px 5px 0px;
     }
 
+    .typewriter {
+      max-width: 100%; 
+    }
+
     .typewriter h3 {
         border-right: .15em solid white; /* The typwriter cursor */
-        letter-spacing: .1em; /* Adjust as needed */
+        letter-spacing: .05em; /* Adjust as needed */
         animation: 
           typing 3.5s steps(43, end),
           blink-caret .5s step-end infinite;
@@ -157,6 +162,6 @@
       
     @keyframes typing {
         from { width: 0 }
-        to { width: 90% }
+        to { width: 100% }
     }
   }

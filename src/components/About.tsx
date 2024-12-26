@@ -9,7 +9,7 @@ const About = () => {
             Hi,<br/> I am Charlie Oh
           </h1>
           <div className="typewriter">
-          <h3 className="title sub-title">
+          <h3 className="sub-title">
             Software Engineer and Full-Stack Developer
           </h3>
           </div>

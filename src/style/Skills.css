@@ -84,7 +84,7 @@
     line-height: 18px;
     opacity: 1;
     outline: 0 solid transparent;
-    padding: 8px 18px;
+    padding: 4px 12px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -105,9 +105,9 @@
 
     .skill-tag {
         border-radius: 200px;
-        padding: 0px 10px;
+        padding: 0px 8px;
         line-height: 30px; 
-        margin: 5px 5px;
+        margin: 2px 3px;
         display:inline-block;
     }
     

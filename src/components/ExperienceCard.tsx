@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+import getTechStackColors from './ColorTags';
 import '../style/Experience.css'
 
 interface ExperienceCardProps {
@@ -7,36 +7,19 @@ interface ExperienceCardProps {
     techStack: string[];
     startDate: string;
     endDate: string;
+    description: string;
     logo: string;
   }
 
-const colorMap = new Map<string, string>([
-    ["C#", "csharpblue"],  
-    ["SQL Server", "sqlserver"],  
-    ["Visual Studio", "visualstudio"],  
-    ["Azure DevOps", "azuredevops"],  
-    ["ASP.NET", "aspnet"],  
-    ["Java", "java"],  
-    ["Python", "python"],  
-    ["React", "react"],  
-    ["GraphQL", "graphql"],  
-    ["DynamoDB", "dynamodb"],  
-    ["AWS", "aws"],  
-    ["Visual Basic .NET", "vbnet"],  
-    ["Typescript", "typescript"],  
-    ["AngularJS", "angularjs"],  
-])
 
-function getTechStacks( techStack: string[])  {
-    if (techStack.length > 0) {      
-        return techStack.map((item, index) => (
-            <span className={`${colorMap.get(item)} skill-tag`} key={index}>{item} </span>
-        ));
-    }
-}
-
-
-function ExperienceCard({ jobName, companyName, techStack, startDate, endDate, logo }: ExperienceCardProps) {
+function ExperienceCard({ 
+    jobName,
+    companyName, 
+    techStack, 
+    startDate, 
+    endDate, 
+    description, 
+    logo }: ExperienceCardProps) {
     return <div className="experience-card border-gradient border-gradient-purple" > 
         <div className="experience-info">
             <div className="experience-image">
@@ -50,8 +33,11 @@ function ExperienceCard({ jobName, companyName, techStack, startDate, endDate, l
                 <p>{startDate} ~ {endDate}</p>
             </div>
         </div>
+        <div className="experience-description">
+            {description}
+        </div>
         <div className="skill-tags">
-        {getTechStacks(techStack)}
+            {getTechStackColors(techStack)}
         </div>
         
     </div>

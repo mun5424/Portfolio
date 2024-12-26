@@ -1,21 +1,27 @@
+a:visited { 
+    text-decoration: none; 
+    color:#4493f8; 
+}
 
 .ghrepo-container {
-    border: 1px solid #ddd;
+    border: 1px solid #3d444d;
     border-radius: 8px;
     padding: 16px;
     max-width: 400px;
     margin: 16px auto;
-    background-color: #f9f9f9
+    background-color: #0d1117;
 }
 
 .repoName {
     margin: 0 0 8px;
     font-size: 18px;
+    color: #4493f8;
 }
 
 .description {
     font-size: 14px;
-    color: #555;
+    color: white;
+    text-align: left; 
 }
 
 .meta {

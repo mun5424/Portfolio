@@ -126,5 +126,6 @@
     "site_admin": false
   },
   "network_count": 0,
-  "subscribers_count": 3
+  "subscribers_count": 3,
+  "techStacks": ["Javascript", "Browser Extensions"]
 }

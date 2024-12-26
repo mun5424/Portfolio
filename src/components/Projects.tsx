@@ -12,6 +12,7 @@ export interface RepoData {
   description: string | null;
   stargazers_count: number;
   forks_count: number;
+  techStacks: string[];
 }
 
 const myRepositories = [
