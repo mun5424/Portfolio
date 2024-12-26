@@ -19,7 +19,7 @@ const About = () => {
             <br /><br />
             I have experience with various object-oriented programming languages. I've worked with backend technologies such as Java, Python, and C#, and frontend technologies such as Angular, Node, and React.
             <br /><br />
-            On my free time, I like playing video games, scoping out new places for delicious food, and practice piano.
+            On my free time, I like playing video games, scoping out new places for delicious food, and practicing newage piano.
           </p>
           </div>
         </div>

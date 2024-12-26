@@ -76,13 +76,6 @@
 
 
 @media screen and (max-width: 767px) {
-    h3 {
-        font-size: 4vw;
-    }
-
-    h4 {
-        font-size: 3vw;
-    }
     
     .experience-image {
         max-width: 50%;
@@ -92,11 +85,7 @@
         max-width: 100%;
     }
     .experience-description {
-        font-size: 3vw;
-    }
-
-    .experience-title {
-        text-align: center;
+        font-size: 4vw;
     }
 
     .experience-card {

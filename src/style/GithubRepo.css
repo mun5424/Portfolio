@@ -1,11 +1,13 @@
-a:visited { 
+@import './Common.css';
+
+.repo a:visited { 
     text-decoration: none; 
     color:#4493f8; 
 }
 
 .ghrepo-container {
     border: 1px solid #3d444d;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 16px;
     max-width: 400px;
     margin: 16px auto;
@@ -30,4 +32,12 @@ a:visited {
     margin-top: 8px;
     font-size: 12px;
     color: #777;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .ghrepo-container {
+        margin: 1em;
+    }
 }

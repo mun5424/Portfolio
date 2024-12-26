@@ -20,7 +20,6 @@
 
 .sub-title {
     text-align: left;
-    max-width: 80%; 
 }
 
 .about-hero {
@@ -43,16 +42,20 @@
 .about-paragraph {
     color: #fff;
     text-align: left;
-    padding: 10px;
 }
   
+.typewriter {
+  display:inline-block;
+}
+
+
 .typewriter h3 {
     color: #fff;
     overflow: hidden; 
     border-right: .15em solid white;
     white-space: nowrap; 
     margin: 0 auto; 
-    letter-spacing: .15em;
+    letter-spacing: .04em;
     animation: 
         typing 3.5s steps(46, end),
       blink-caret .5s step-end infinite;
@@ -113,13 +116,13 @@
     }
 
     .sub-title {
-        font-size: 2.8vw;
+        font-size: 3.5vw;
     }
 
     p {
         padding: 5px; 
         word-wrap: break-word;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .about-paragraph {
@@ -154,7 +157,7 @@
 
     .typewriter h3 {
         border-right: .15em solid white; /* The typwriter cursor */
-        letter-spacing: .05em; /* Adjust as needed */
+        letter-spacing: .1em; /* Adjust as needed */
         animation: 
           typing 3.5s steps(43, end),
           blink-caret .5s step-end infinite;
@@ -164,4 +167,13 @@
         from { width: 0 }
         to { width: 100% }
     }
+
+    
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.45em 0.6em;
+    font-size: 1em;
+    font-weight: 500;
+  }
   }

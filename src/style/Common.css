@@ -9,4 +9,12 @@
         text-align: center; 
         color: white; 
     }
+
+    h3 {
+        font-size: 5vw;
+    }
+
+    h4 {
+        font-size: 4vw;
+    }
 }
