@@ -20,6 +20,11 @@
     padding: 1rem;
     margin: 0.5rem;
     background-color: #0d1117;
+    transition: all .2s ease-in-out;
+}
+
+.ghrepo-card:hover {
+    transform: scale(1.02);
 }
 
 .repoName {

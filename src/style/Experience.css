@@ -21,6 +21,12 @@
     padding: 1rem 1.5rem 1rem 1.5rem;
     flex-direction: column;
     text-align: left; 
+    transition: all .2s ease-in-out;
+}
+
+
+.experience-card:hover {
+    transform: scale(1.02);
 }
 
 .experience-info {
@@ -93,6 +99,7 @@
         margin: 0.5rem;
         flex-direction: column;
     }
+
 
     .experience-job-name {
         margin: 0;
