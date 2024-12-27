@@ -1,5 +1,14 @@
-.title { 
+.main-title { 
     text-align: left; 
+    color: white; 
+}
+
+.title { 
+    color: white;
+    padding: 1rem;
+}
+
+h3 {
     color: white; 
 }
 

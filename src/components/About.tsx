@@ -5,7 +5,7 @@ const About = () => {
     return <div id="about-section" className="about-container">
       <div className="about-details">
         <div className="about-title"> 
-          <h1 className="title main-title">
+          <h1 className="main-title">
             Hi,<br/> I am Charlie Oh
           </h1>
           <div className="typewriter">
@@ -24,8 +24,10 @@ const About = () => {
           </div>
         </div>
         <div className="about-me-buttons">
-          <button type="button" className="button">More About Me</button>
-          <button type="button" className="button">See My Past Work</button>
+          <a href="#contact-section"><button type="button" className="button">More About Me</button></a>
+          <a href="#projects-section"><button type="button" className="button">See My Past Work</button></a>
+          
+          
         </div>
       </div>
       <div className="about-hero">

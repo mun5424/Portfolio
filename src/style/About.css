@@ -37,6 +37,12 @@
 .mugshot-container img {
     width: 300px;
     border-radius: 30px;
+    border: 1px solid rgb(179, 237, 247); 
+}
+
+
+.mugshot-container img:hover {
+  border: 2px solid rgb(0, 204, 240); 
 }
 
 .button {
@@ -90,6 +96,7 @@
 
   button:hover {
     border-color: #646cff;
+    color: #ff9800;
   }
 
   button:focus,
