@@ -62,6 +62,10 @@ body {
       justify-content: right;
     }
 
+    .menu {
+      display: none;
+    }
+
     .menu.active {
       display: inline-block;
       width: 100%; 
