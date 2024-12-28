@@ -1,3 +1,11 @@
+@font-face
+{
+    font-family: "Segoe UI";
+    src: url("./../assets/fonts/Segoe\ UI.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .main-title { 
     text-align: left; 
     color: white; 
