@@ -39,6 +39,7 @@
     width: 300px;
     border-radius: 30px;
     border: 1px solid rgb(179, 237, 247); 
+    transition: all .2s ease-in-out;
 }
 
 

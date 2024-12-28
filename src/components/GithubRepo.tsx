@@ -13,23 +13,23 @@ const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) 
 
 // only use to fetch API, then save the results to /github/json
 // use the fetch call once then save the results into json, dont need to call the gh repo every time
-  const fetchReposAPI = async () => {
-    try {
-      const repoPromises = repositories.map(({ username, repoName }) =>
-        fetch(`https://api.github.com/repos/${username}/${repoName}`).then((response) => {
-          if (!response.ok) {
-            throw new Error(`Failed to fetch ${repoName}: ${response.statusText}`);
-          }
-          return response.json();
-        })
-      );
+  // const fetchReposAPI = async () => {
+  //   try {
+  //     const repoPromises = repositories.map(({ username, repoName }) =>
+  //       fetch(`https://api.github.com/repos/${username}/${repoName}`).then((response) => {
+  //         if (!response.ok) {
+  //           throw new Error(`Failed to fetch ${repoName}: ${response.statusText}`);
+  //         }
+  //         return response.json();
+  //       })
+  //     );
 
-      const repoResults = await Promise.all(repoPromises);
-      setRepoData(repoResults);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "An unknown error occurred");
-    }
-  }
+  //     const repoResults = await Promise.all(repoPromises);
+  //     setRepoData(repoResults);
+  //   } catch (err) {
+  //     setError(err instanceof Error ? err.message : "An unknown error occurred");
+  //   }
+  // }
 
 
   useEffect(() => {

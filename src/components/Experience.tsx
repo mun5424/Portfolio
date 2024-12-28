@@ -1,4 +1,3 @@
-import { Component } from "react";
 import ExperienceCard from "./ExperienceCard";
 import '../style/Experience.css'
 import transceptalogo from '../assets/transcepta.jpg'
