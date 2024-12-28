@@ -41,3 +41,24 @@
 .icon:hover {
     transform: scale(1.2);
 }
+
+.go-back-button {
+    display:flex; 
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-card {
+        width: 100%;
+        margin: 1rem; 
+        height: auto;
+    }
+    
+    .contact-info {
+        text-align: center;
+        width: 100%;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    
+}

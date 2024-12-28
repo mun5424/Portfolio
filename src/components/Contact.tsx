@@ -42,6 +42,9 @@ const Contact = () => {
 
                 </div>
             </div>
+            <div className="go-back-button"> 
+                <a href="#about-section"><button type="button" className="button">Go Back to Top</button></a>
+            </div>
         </div>
     )
 }
