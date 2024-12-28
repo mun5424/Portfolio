@@ -107,12 +107,18 @@
         width: 50%;
     }
     .experience-image {
+        margin-top: 20px;
         width: 50%;
     }
 
     .experience-info {
         width: 100%;
         padding:auto;
+    }
+
+        
+    .start-end-dates p { 
+        margin: 0 0 5px 0;
     }
 
 }

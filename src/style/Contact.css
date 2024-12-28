@@ -1,0 +1,43 @@
+.contact-container { 
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    border: 1px solid rgb(192, 255, 196);
+    background-color: black;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card:hover {
+    border: 1.5px solid rgb(41, 241, 55);
+}
+
+.contact-resume, .contact-info {
+    text-align: center;
+    min-height: 150px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.contact-resume img {
+    max-width: 200px; 
+    transition: all .1s ease-in-out;
+}
+
+.contact-resume img:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    transition: all .1s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}

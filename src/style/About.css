@@ -20,6 +20,7 @@
 
 .sub-title {
     text-align: left;
+    color: #ff9800;
 }
 
 .about-hero {
@@ -60,7 +61,8 @@
 
 
 .typewriter h3 {
-    color: #fff;
+
+    color: #ff9800;
     overflow: hidden; 
     border-right: .15em solid white;
     white-space: nowrap; 
