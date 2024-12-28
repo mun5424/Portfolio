@@ -152,7 +152,7 @@
 
     .about-details {
         width: 100%;
-        height: auto;
+        padding: 0;
     }
 
     .about-hero {
