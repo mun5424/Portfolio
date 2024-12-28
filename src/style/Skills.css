@@ -117,7 +117,7 @@
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: "Segoe UI";
+    font-family: "Montserrat", serif, "Open Sans"; 
     font-size: 12px;
     text-shadow:1px 1px 1px black;
     font-weight: 700;
