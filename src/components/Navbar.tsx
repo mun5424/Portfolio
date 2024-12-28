@@ -16,10 +16,7 @@ const Navbar = () => {
             <div className="navbar-logo">
             </div>
             
-            
-            <div className="navbar-hamburger">
-                
-            </div>
+
             <div className="hamburger" onClick={toggleMenu}>
                 <a><img width="30px" height="30px" src={hamburger} /> </a>
             </div>
@@ -28,7 +25,7 @@ const Navbar = () => {
             <div className={`menu ${menuOpen ? 'active' : ''}`}>
             <ul className="navbar-links">
                 <li>
-                <a className="navbar-button" href="#experience-section">Experience </a>
+                <a href="#experience-section">Experience </a>
                 </li>
                 <li>
                 <a href="#projects-section">Projects</a>
