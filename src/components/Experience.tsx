@@ -1,4 +1,4 @@
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "./ExperienceCard.tsx";
 import '../style/Experience.css'
 import transceptalogo from '../assets/transcepta.jpg'
 import amazonlogo from '../assets/amazon.jpg'

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import './../style/GithubRepo.css';
-import { Repository, RepoData } from "./Projects";
+import { Repository, RepoData } from "./Projects.tsx";
 import cla_json from "./../assets/github/cla.json";
 import overwatchfantasy_json from "./../assets/github/overwatchfantasy.json";
 import iris_json from "./../assets/github/iris.json";
 import nutritiously_json from "./../assets/github/nutritiously.json";
-import getTechStackColors from "./ColorTags";
+import getTechStackColors from "./ColorTags.tsx";
 
 const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) => {
   const [repoData, setRepoData] = useState<RepoData[]>([]);

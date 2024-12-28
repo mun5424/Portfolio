@@ -1,4 +1,4 @@
-import getTechStackColors from './ColorTags';
+import getTechStackColors from './ColorTags.tsx';
 import '../style/Experience.css'
 
 interface ExperienceCardProps {

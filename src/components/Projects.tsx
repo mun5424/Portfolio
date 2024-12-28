@@ -1,4 +1,4 @@
-import GitHubRepo from "./GithubRepo";
+import GitHubRepo from "./GithubRepo.tsx";
 
 export interface Repository {
   username: string;
