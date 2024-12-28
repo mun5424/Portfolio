@@ -15,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <footer>Developed by Charlie Oh using React and Vite </footer>
     </div>
   )
 }

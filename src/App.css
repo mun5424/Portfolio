@@ -12,6 +12,11 @@ html {
   font-style: normal;
 }
 
+footer {
+  margin-top: 200px;
+  text-align: center;
+  color: grey;
+}
 
 @media screen and (max-width: 767px) {
 

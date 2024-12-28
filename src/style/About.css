@@ -44,6 +44,7 @@
 
 .mugshot-container img:hover {
   border: 2px solid rgb(0, 204, 240); 
+  transform: rotate(2deg);
 }
 
 .button {
