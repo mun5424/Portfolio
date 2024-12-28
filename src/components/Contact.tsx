@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className="contact-card">
                     <div className="contact-resume">
                         <h3>Resume</h3> 
-                        <img src={resume}></img>
+                        <a href="https://drive.google.com/file/d/1TCVZgYyyN0uPs5cmUoooh2zArKsRk9YA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src={resume}></img></a>
                     </div>
                     <div className="contact-info">
                         <h3>My Socials</h3> 
