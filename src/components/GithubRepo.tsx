@@ -59,17 +59,19 @@ const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) 
   return (
     <div className="ghrepo-container">
       {repoData.map((repo) => (
-        <div key={repo.id} className="ghrepo-card">
-          <h3 className="repo">
-            <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-              {repo.name}
-            </a>
-          </h3>
-          <p className="description">{repo.description || "No description available."}</p>
-          <div className="skill-tags">
-        {getTechStackColors(repo.techStacks)}
+        <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+            
+          <div key={repo.id} className="ghrepo-card">
+            <h3 className="ghrepo-title">
+                {repo.name}
+            </h3>
+            <p className="description">{repo.description || "No description available."}</p>
+            <div className="skill-tags">
+          {getTechStackColors(repo.techStacks)}
+            </div>
           </div>
-        </div>
+
+        </a>
       ))}
     </div>
   );
