@@ -1,7 +1,9 @@
 @import './Common.css';
+.repo a { 
+    color:#4493f8; 
+}
 
 .repo a:visited { 
-    text-decoration: none; 
     color:#4493f8; 
 }
 
