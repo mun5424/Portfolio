@@ -94,7 +94,7 @@
     font-size: 1em;
     font-weight: 500;
     font-family: "Montserrat", serif, "Open Sans"; 
-    background-color: #1a1a1a;
+    background-color: white;
     cursor: pointer;
     transition: border-color 0.25s;
   }
