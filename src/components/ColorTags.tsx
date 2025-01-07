@@ -22,6 +22,8 @@ const colorMap = new Map<string, string>([
     ["PostgreSQL", "postgresql"],  
     ["MySQL", "mysql"],  
     ["Bootstrap", "bootstrap"],  
+    ["Vite", "vite"],  
+    ["Github Pages", "githubpages"],  
 ])
 
 export default function getTechStackColors( techStack: string[])  {

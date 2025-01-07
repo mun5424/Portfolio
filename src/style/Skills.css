@@ -108,6 +108,16 @@
     box-shadow: #7a10f2  0 10px 20px -10px;
 }
 
+.githubpages {
+    background: grey;
+    box-shadow: grey  0 10px 20px -10px;
+}
+
+.vite {
+    background: #9575CD;
+    box-shadow: #9575CD  0 10px 20px -10px;
+}
+
 .skill-tags {
     margin: 5px;
 }

@@ -5,6 +5,7 @@ import cla_json from "./../assets/github/cla.json";
 import overwatchfantasy_json from "./../assets/github/overwatchfantasy.json";
 import iris_json from "./../assets/github/iris.json";
 import nutritiously_json from "./../assets/github/nutritiously.json";
+import portfolio_json from "./../assets/github/portfolio.json";
 import getTechStackColors from "./ColorTags.tsx";
 
 const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) => {
@@ -39,7 +40,8 @@ const GitHubRepo: React.FC<{ repositories: Repository[] }> = ({ repositories }) 
         const cla = cla_json as RepoData;
         const overwatchfantasy = overwatchfantasy_json as RepoData;
         const iris = iris_json as RepoData;
-        setRepoData([nutritiously, overwatchfantasy, iris, cla]);
+        const portfolio = portfolio_json as RepoData;
+        setRepoData([cla, nutritiously, overwatchfantasy, iris, portfolio]);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An unknown error occurred");
       }
